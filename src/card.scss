@@ -1,0 +1,96 @@
+.card-container {
+    background-color: #6d214f;
+    display: flex;
+    height: 100vh;
+    justify-content: space-evenly;
+    align-items: center;
+    .main {
+        // border: 1px solid #6d214f;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        border-radius: 1rem;
+        overflow: hidden;
+        width: 20%;
+        height: 65%;
+        display: flex;
+        flex-direction: column;
+        // margin: -5rem;
+        .top {
+            background-color: wheat;
+            // border: 1px solid yellow;
+            flex: 0.8;
+            // border-top-right-radius: 1rem;
+            // border-top-left-radius: 1rem;
+            // position: relative;
+            text-align: center;
+            color: azure;
+            .top-text {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                margin-top: 2rem;
+                // background-color: aqua;
+                #text1 {
+                    font-weight: bold;
+                    font-size: 1.2rem;
+                }
+                #text2 {
+                    padding: 0.5rem;
+                    font-size: 0.9rem;
+                }
+            }
+            .top-options {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                padding: 1rem;
+
+                .back-option:hover {
+                    cursor: pointer;
+                }
+                .settings-option {
+                    height: 1.3rem;
+                }
+                .settings-option:hover {
+                    cursor: pointer;
+                }
+            }
+            // .card-img {
+            //     max-width: 100%;
+            //     max-height: 100%;
+            // }
+            .card-degree-text {
+                padding: 2rem;
+                font-size: 3rem;
+                font-weight: bold;
+            }
+            .degree-symbol {
+                font-size: 2.5rem;
+            }
+        }
+        .bottom {
+            background-color: azure;
+            // border: 1px solid green;
+            flex: 0.25;
+            // border-bottom-right-radius: 1rem;
+            // border-bottom-left-radius: 1rem;
+            .btm-text {
+                display: flex;
+                background-color: azure;
+                height: 100%;
+                flex-direction: column;
+                margin: 0.3rem;
+                .section-text {
+                    display: flex;
+                    padding: 0.8rem;
+                    font-size: 0.8rem;
+                    font-weight: 800;
+                    justify-content: space-between;
+                    border-bottom: 1px solid lightgray;
+                }
+                .section-text:last-of-type {
+                    border-bottom: none;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,64 @@
+{
+    "weather": [
+        {
+            "top_section": {
+                "img": "../images/one.jpg",
+                "city": "Mumbai",
+                "description": "Lighting Strike",
+                "temperature": 25
+            },
+            "bottom_section": [
+                {
+                    "day": "Yesterday",
+                    "temprange": "25° - 28°",
+                    "color": "#57606f"
+                },
+                {
+                    "day": "Tomorrow",
+                    "temprange": "22° - 26°",
+                    "color": "#0097e6"
+                }
+            ]
+        },
+        {
+            "top_section": {
+                "img": "../images/three.jpg",
+                "city": "Jaipur",
+                "description": "Sunny Grace",
+                "temperature": 28
+            },
+            "bottom_section": [
+                {
+                    "day": "Yesterday",
+                    "temprange": "28° - 32°",
+                    "color": "#57606f"
+                },
+                {
+                    "day": "Tomorrow",
+                    "temprange": "22° - 26°",
+                    "color": "#b33939"
+                }
+            ]
+        },
+        {
+            "top_section": {
+                "img": "../images/two.jpg",
+                "city": "Bengluru",
+                "description": "Cloudy Breeze",
+                "temperature": 20
+            },
+            "bottom_section": [
+                {
+                    "day": "Yesterday",
+                    "temprange": "18° - 22°",
+                    "color": "#57606f"
+                },
+                {
+                    "day": "Tomorrow",
+                    "temprange": "20° - 24°",
+                    "color": "#2ed573"
+                }
+            ]
+        }
+    ]
+}
